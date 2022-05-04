@@ -70,7 +70,6 @@ def getMinDistance(data):
 def testFunc(func, test_data, expected_res):
     for i in range(0, len(test_data)):
         print('Input data: ', test_data[i])
-        print(func(test_data[i]))
         if(expected_res[i] == func(test_data[i])):
             print('\033[92m' + 'Pass' + '\033[0m')
         else: 
